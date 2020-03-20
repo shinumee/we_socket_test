@@ -2,25 +2,18 @@
 <html xmlns="http://www.w3.org/1999/xhtml"
 	xmlns:ui="http://java.sun.com/jsf/facelets"
 	xmlns:f="http://java.sun.com/jsf/core"
-	xmlns:h="http://java.sun.com/jsf/html">
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:p="http://primefaces.org/ui">
 
 <h:head></h:head>
 <h:body>
 
-	<ui:composition template="/templete/common.xhtml">
-
-		<ui:define name="main">
-			<h2>This is page1 content</h2>
-		</ui:define>
-		
-		<ui:define name="main">
-			<h2>This is page1 content</h2>
-		</ui:define>
-
-		<ui:define name="footer">
-			<h2>This is page1 Footer</h2>
-		</ui:define>
-	</ui:composition>
+	<h:body>
+		<p:linkButton outcome="register" value="Register"
+			style="margin-right:20px;">
+			<!-- <f:param name="productId" value="10" /> -->
+		</p:linkButton>
+	</h:body>
 
 </h:body>
 </html>

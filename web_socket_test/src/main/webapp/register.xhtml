@@ -1,0 +1,29 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:p="http://primefaces.org/ui">
+
+
+
+<h:head></h:head>
+<body>
+	<h:form>
+		<h:panelGrid columns="2" cellpadding="5">
+			<p:outputLabel value="Name" for="name" />
+			<p:autoComplete id="name" />
+			<p:outputLabel value="Email" for="email" />
+			<p:autoComplete id="email" />
+			<p:outputLabel value="Password" for="password" />
+			<p:autoComplete id="password" />
+			<p:commandButton value="Register" id="ajax"
+				 style="margin-right:20px;"
+				styleClass="ui-priority-primary" />
+		</h:panelGrid>
+	</h:form>
+</body>
+
+
+
+</html>
